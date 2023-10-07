@@ -1,0 +1,63 @@
+/* Скидання стилів */
+@import url(reset.css);
+
+* {
+    color: red;
+}
+
+div {
+    color: blue;
+}
+
+a {
+    color: brown;
+}
+
+.title {
+    color: blueviolet;
+}
+
+[href="#z3"] {
+    color: #000;
+}
+
+#id {
+    color: blue;
+}
+
+p.text {
+    color: greenyellow;
+}
+
+.text.lesson {
+    color: aquamarine;
+}
+
+.text_p,
+.lesson_p {
+    color: bisque;
+}
+
+.list p {
+    color: chocolate;
+}
+
+.list .item {
+    color: chartreuse;
+}
+
+.desc * {
+    color: #1c0d0d;
+}
+
+.lead > p {
+    color: cadetblue;
+}
+
+.heading > h2 + p {
+    color: darkblue;
+}
+
+.heading > h2 ~ a {
+    color: crimson;
+}
