@@ -1,0 +1,157 @@
+/* Homework Part 1 */
+
+/* ======================================== ШРИФТИ ======================================== */
+
+/* ---------------------------------- Підключення шрифтів --------------------------------- */
+
+/* Googl Fonts */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,italic,600,700&display=swap");
+
+
+/* Підключення вручну */
+@import url(fonds.css);
+
+/* Скидання стилів */
+@import url(reset.css);
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+p {
+    text-indent: 40px;
+}
+
+.homework {
+    font-family: "Core sans C", sans-serif;
+    font-size: 40px;
+    font-weight: 750;
+    text-align: center;
+    color: rgb(221, 92, 0);
+    text-decoration: underline overline;
+    text-shadow: 2px 2px 5px #7D7D7D;
+    text-transform: uppercase;
+    padding: 20px 0
+}
+
+img {
+    width: 100%;
+}
+
+mark {
+    font-family: "Core Sans C", sans-serif;
+    font-style: italic;
+    font-weight: 650;
+}
+
+ul li {
+    font-family: "Core sans C", sans-serif;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 15px;
+    color: #7D7D7D;
+}
+
+a {
+    text-decoration: underline;
+    color: chocolate;
+    text-shadow: 7px 7px 10px coral, 5px -3px 10px rgb(255, 34, 0);
+}
+
+h2,
+h3 {
+    font-family: "Core Sans C", sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: rgb(255, 136, 0, 0.7);
+}
+
+.icons {
+    width: 105px;
+}
+
+.line_through {
+    font-family: "Core Sans C", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 750;
+    text-decoration: line-through;
+}
+
+/* Homework Part 2 */
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 127%;
+    color: #37393f;
+    padding-bottom: 3px;
+}
+
+.text-hw {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7D7D7D;
+    padding: 35px 0;
+    text-align: justify;
+}
+
+h5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #6b77e5;
+    padding-bottom: 10px;
+}
+
+h6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #37393f;
+    line-height: 50px;
+}
+
+.list-hw {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #7D7D7D;
+}
+
+.capitalize p{
+    text-transform: capitalize;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.letter_spacing {
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.white_space {
+    white-space: nowrap;
+    word-spacing: 10px;
+}
+
+.word_spacing {
+    word-spacing: 20px;
+}

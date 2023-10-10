@@ -1,0 +1,41 @@
+/*----------- Підключення шрифтів в ручну -------------*/
+
+@font-face {
+    font-family: "Core Sans C";
+    src:
+        url("../fonds/CoreSansC-45Regular.woff2") format(woff2),
+        url("../fonds/CoreSansC-45Regular.woff") format(woff);
+    font-weight: 450;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Core Sans C";
+    src:
+        url("../fonds/CoreSansC-55MediumIt.woff2") format(woff2),
+        url("../fonds/CoreSansC-55MediumIt.woff") format(woff);
+    font-weight: 550;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Core Sans C";
+    src:
+        url("../fonds/CoreSansC-65Bold.woff2") format(woff2),
+        url("../fonds/CoreSansC-65Bold.woff") format(woff);
+    font-weight: 650;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Core Sans C";
+    src:
+        url("../fonds/CoreSansC-75ExtraBoldIt.woff2") format(woff2),
+        url("../fonds/CoreSansC-75ExtraBoldIt.woff") format(woff);
+    font-weight: 750;
+    font-style: normal;
+    font-display: swap;
+}
