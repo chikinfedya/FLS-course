@@ -1,0 +1,10 @@
+@import url("reset.css");
+
+span {
+    color: red;
+}
+
+a {
+    color: blue;
+    text-decoration:dashed;
+}
