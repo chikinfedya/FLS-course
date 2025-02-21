@@ -16,7 +16,7 @@ p {
     font-family: "Inter";
     font-size: 18px;
     font-weight: 400;
-    line-height: 1.47;
+    line-height: 1.46;
     color: #7d7d7d;
 }
 
@@ -38,6 +38,13 @@ h3 {
     line-height: normal;
 }
 
+h4 {
+    font-family: "Cormorant Infant";
+    font-size: 20px;
+    font-weight: 700;
+    color: #d58417;
+    text-transform: uppercase;
+}
 /* ================ макет Licencing ================ */
 
 .licensing {
@@ -101,11 +108,208 @@ h1 {
     margin-bottom: 24px;
 }
 
-.photography p:last-child {
+.photography p:not(:last-child) {
     margin-bottom: 0;
 }
 
 h3 {
     margin-bottom: 8px;
 }
+
+/* ================= Макет Project Information =======================*/
+
+.project-information {
+    width: 830px;
+    margin: 0 auto 150px;
+}
+
+.project-information h2 {
+    margin-bottom: 13px;
+}
+
+.text-one p {
+    margin-bottom: 35px;
+}
+
+.text-one,
+.tex-two,
+ul,
+ol  {
+    margin-bottom: 35px;
+}
+
+.project-information ul{
+    margin-left: 32px;
+} 
+
+.project-information ol{
+    margin-left: 16px;
+} 
+
+.disc li {
+    list-style: disc;
+    color: #7d7d7d;
+}
+
+.number ol {
+    list-style-type: decimal-leading-zero;
+}
+
+.project-information li:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+/* ======================== Макет "Euphoria" ======================== */
+
+.Euphoria {
+    width: 1240px;
+    margin: 0 auto 100px;
+}
+
+.euphoria-title {
+    font-size: 0;
+    margin-bottom: 30px;
+}
+
+.rectangle {
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #8a33fd;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.Core-Sans {
+    display: inline-block;
+}
+
+.Core-Sans h2 {
+    font-family: "Core Sans C";
+    font-size: 28px;
+    font-weight: 650;
+    line-height: 1.2;
+    letter-spacing: 0.56px;
+    color: #3C4242;
+}
+
+.Euphoria h3 {
+    font-family: "Core Sans C";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    color: #807d7e;
+    margin-bottom: 25px;
+}
+
+.Euphoria p:not(:last-child) {
+    font-family: "Causten";
+    font-size: 20px;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+    color: #807d7e;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.Euphoria a > p {
+    font-family: "Core Sans C";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    color: #807d7e;
+    display: inline-block;
+}
+
+.euphoria-text-one,
+.euphoria-text-two,
+a {
+    margin-left: 21px;
+}
+
+.euphoria-text-one {
+    margin-bottom: 25px;
+}
+
+.euphoria-text-two {
+    margin-bottom: 20px;
+}
+
+/* ========================== Макет "jewels" ============================ */
+
+.jewels {
+    width: 1110px;
+    margin: 0 auto 0;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+.jewels-left {
+    width: 503px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 89px;
+}
+
+.jewels-left h4 {
+    margin-bottom: 27px;
+}
+
+.jewels-left h2 {
+    font-family: "Cormorant Infant";
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1;
+    margin-bottom: 31px;
+    color: #000;
+}
+
+.jewels-left p {
+    font-family: "Cormorant Infant";
+    font-size: 30px;
+    font-weight: 700;
+    line-height:1.4;
+}
+
+.jewels-right {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Rectangle-four {
+    width: 177px;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.Rectangle-four img {
+    width: 177px;
+    border-radius: 235px;
+    margin-top: 14px;
+    margin-left: -10px;
+}
+
+.Rectangle-five {
+    width: 308px;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    display: inline-block;
+}
+
+.Rectangle-five img {
+    width: 308px;
+    border-radius: 235px;
+    margin-top: 19px;
+    margin-left: -11px;
+}
+
+
 
