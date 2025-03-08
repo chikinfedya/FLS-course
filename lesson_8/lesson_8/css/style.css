@@ -1,0 +1,185 @@
+/* ===================== Скидання стилів ================== */
+@import url(reset.css);
+
+/*=========================== Шрифти ========================*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url(fonts.css);
+
+body {
+    width: 1500px;
+    background-color: rgb(250, 243, 235);
+}
+
+p {
+    font-family: "inter";
+    line-height: 1.47;
+    color: #7d7d7d;
+}
+
+h1,
+h2,
+h3 {
+    color: #37393f;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.welcom span,
+.latest-projectse span {
+    width: 12px;
+    height: 12px;
+    background-color: #40ddb6;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+/*  =============== Макет Whitecollar ==================== */
+.whiteCollar {
+    width: 675px;
+    margin: 151px 350px 40px 69px;
+}
+
+.welcom {
+    width: 413px;
+    margin-bottom: 10px;
+}
+
+.welcom p {
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.21;
+}
+
+.business-text p:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.business,
+.business-target {
+    margin-bottom: 48px;
+}
+
+.target {
+    padding:28px 38px 28px 41px;
+}
+
+.container {
+    display: inline-block;
+    font-size: 0;
+    border: 1px solid #e3e3e3;
+}
+
+.container:not(:last-child) {
+    margin-bottom: 31px;
+}
+
+.vector {
+    background-image: url(../img/Vector.png);
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    margin-right: 19px;
+    vertical-align: top;
+}
+
+.container-text {
+    display: inline-block;
+    width: 546px;
+}
+
+.container h2 {
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+.business-button {
+    width: 200px;
+    height: 65px;
+    background-color: #6b77e5;
+    padding: 21px 35px 22px;
+    display: inline-block;
+}
+
+.business-button p {
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+}
+
+/* ======================= макет project ======================== */
+
+.projects {
+    width: 1220px;
+    margin: 0 auto 150px;
+}
+
+.discover {
+    width: 852px;
+}
+
+.latest-projectse p {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+}
+
+.discover h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.discover-text p {
+    text-align: center;
+}
+
+/* ================ homework =================== */
+
+.bg-image {
+    background-image: url(../img/Business\ Consulting.jpg);
+    height: 700px;
+    background-repeat: repeat-x;
+}
+
+.bg-position {
+    background-image: url(../img/Financial\ Investment.jpg);
+    height: 1400px;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.bg-attachment {
+    background-image: url(../img/Financial\ Investmentt.jpg);
+    height: 1400px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: fixed;
+}
+
+.bg-size-container {
+    height: 700px;
+    background-image: url(../img/Marketing\ Strategy.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-full {
+    height: 1000px;
+    background: coral url(../img/Rectangle\ 13.jpg) 50% /700px 500px no-repeat; 
+}
