@@ -21,13 +21,13 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     color: #37393f;
     font-family: "Poppins";
     font-size: 20px;
     font-weight: 600;
 }
-
 
 .welcom span,
 .latest-projectse span {
@@ -120,6 +120,63 @@ h1 {
     vertical-align: bottom;
 }
 
+.second-section {
+    width: 613px;
+    margin-bottom: 37px;
+}
+
+.point-container {
+    width: 296px;
+    padding: 32px;
+    border: 1px solid #E3E3E3;
+    display: inline-block;
+}
+
+.point-container:not(:last-child) {
+    margin-right: 21px;
+}
+
+.icon-left,
+.icon-right {
+    width: 41px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+}
+
+.icon-left {
+    background-image: url(../img/Experience.png);
+}
+
+.icon-right {
+    background-image: url(../img/Awards\ Winner.png);
+}
+
+.content-text {
+    width: 173px;
+    display: inline-block;
+}
+
+.content-text p {
+    font-size: 16px;
+}
+
+.point-butoon {
+    width: 184px;
+    height: 65px;
+    background-color: #6B77E5;
+    padding: 22px 27px;
+    display: inline-block;
+}
+
+.point-butoon p {
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+    text-transform: capitalize;
+}
+
 /* ======================= макет project ======================== */
 
 .projects {
@@ -163,7 +220,6 @@ h1 {
 .projects-container:not(:last-child) {
     margin-right: 31px;
 }
-
 
 .financial-investment {
     background-image: url(../img/Financial\ Investment.jpg);
@@ -342,6 +398,21 @@ h1 {
     font-weight: 300;
     letter-spacing: 1px;
     color: #fff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.unsplash-button p {
+    width: 168px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 12px 44px;
+    font-family: "Causten";
+    font-weight: 600;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #3C4242;;
 }
 
 .right-container {
