@@ -7,17 +7,65 @@
 
 .body {
     width: 1920px;
+    background-color: bisque;
+}
+
+p {
+    font-family: "Inter";
+    font-size: 18px;
+    color: #7d7d7d;
+}
+
+h1 {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    color: #37393F;
 }
 
 
 /* ====================== TASK ONE ======================== */
-.task-one {
-    margin: 50px 33%;
+.task-one{
+    width: 1200px;
+    margin: 0 auto 100px;
 }
 
-li > *:last-child {
-    margin-bottom: 5px;
+h1 {
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
 }
+
+.pseudo-class {
+    margin: 0 auto 50px;
+    background-color: bisque;
+    padding: 25px;
+}
+
+/* ============= :focus ============ */
+
+.hover-button {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.47;
+    margin: auto 0 15px;
+}
+
+.hover-button:hover {
+    text-transform: uppercase;
+    line-height: 1.5;
+    background-color: rgb(187, 222, 59);
+    border: 3px solid rgb(118, 133, 64);
+}
+
+.hover-button p:hover {
+    color: yellow;
+}
+
 
 /* ====================== TASK TWO ======================== */
 
