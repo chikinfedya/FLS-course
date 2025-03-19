@@ -23,7 +23,6 @@ h1 {
     color: #37393F;
 }
 
-
 /* ====================== TASK ONE ======================== */
 .task-one{
     width: 1200px;
@@ -37,12 +36,26 @@ h1 {
 }
 
 .pseudo-class {
-    margin: 0 auto 50px;
+    width: 843px;
+    margin: 0 auto 0px;
     background-color: bisque;
     padding: 25px;
+    font-size: 0;
 }
 
-/* ============= :focus ============ */
+.pseudo-class a {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 18px;
+    color: #6B77E5;
+    text-transform: capitalize;
+}
+
+.pseudo-class a:hover {
+    text-decoration: underline;
+}
+
+/* ============= :hover ============ */
 
 .hover-button {
     display: inline-block;
@@ -52,7 +65,8 @@ h1 {
     border-radius: 15px;
     text-align: center;
     line-height: 1.47;
-    margin: auto 0 15px;
+    vertical-align: top;
+    margin-right: 10px;
 }
 
 .hover-button:hover {
@@ -66,6 +80,96 @@ h1 {
     color: yellow;
 }
 
+/* ============= :active ============ */
+
+.active-button {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.47;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.active-button:active {
+    text-transform: uppercase;
+    line-height: 1.5;
+    background-color: rgb(187, 222, 59);
+    border: 3px solid rgb(118, 133, 64);
+}
+
+.hover-button p:active {
+    color: yellow;
+}
+
+/* ============= :visitet ============ */
+
+.visitet-sites {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.visitet-sites a {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.47;
+}
+
+.visitet-sites a:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.visitet-sites a:visited {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+/* ============= :focus ============ */
+
+.focus-button {
+    display: inline-block;
+    margin-right: 12.5px;
+    vertical-align: top;
+}
+
+.focus-button a {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.47;
+}
+
+.focus-button a:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.focus-button a:focus {
+    background-color: rgb(187, 222, 59);
+    border: 3px solid rgb(118, 133, 64);
+}
+
+/* ============= :target ============ */
+
+.target-button {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 1.47;
+}
 
 /* ====================== TASK TWO ======================== */
 
