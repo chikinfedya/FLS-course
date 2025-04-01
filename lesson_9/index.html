@@ -8,158 +8,331 @@
 </head>
 <body>
     <main>
+        <h1>Lesson 9 "Pseudo classes and pseudo elements"</h1>
         <div class="task-one">
-            <!-- ПСЕВДОКЛАСИ -->
-            <div class="hover">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                </ul>
+            <div class="pseudo-class">
+                <div class="hover-button">
+                    <p>:hover</p>
+                </div>
+                <div class="active-button">
+                    <p>:active</p>
+                </div>
+                <div class="visitet-sites">
+                    <a target="_blank" href="https://www.facebook.com/" class="first">:visited</a>
+                    <a href="https://www.instagram.com/" target="_blank" class="second">:visited</a>
+                    <a href="https://x.com/" target="_blank" class="last">:visited</a>
+                </div>
+                <div class="focus-button">
+                    <a href="#">:focus</a>
+                    <a href="#">:focus</a>
+                    <a href="#">:focus</a>
+                </div>
+                <div class="target-buttom">
+                    <div>
+                        <a href="#target-box" class="open-box">:target</a>
+                    </div>
+                    <div class="box">
+                        <div id="target-box" class="target-box"></div>
+                    </div>   
+                </div>
             </div>
-            <div class="active">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                </ul>
+            <div class="Pseudo-subclasses-of-positions-in-the-code">
+                <div class="first-last-child">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.</p>
+                    <p>Maxime soluta quia, quis quam eius beatae maiores veniam quo.</p>
+                    <p>Quaerat consectetur cum sunt, eligendi molestias animi dolor amet maiores?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.</p>
+                    <p>Maxime soluta quia, quis quam eius beatae maiores veniam quo.</p>
+                    <p>Quaerat consectetur cum sunt, eligendi molestias animi dolor amet maiores?</p>
+                </div>
+                <div class="first-last-of-type">
+                    <span>span Lorem ipsum dolor sit amet. span</span>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.</p>
+                    <p>Maxime soluta quia, quis quam eius beatae maiores veniam quo.</p>
+                    <p>Quaerat consectetur cum sunt, eligendi molestias animi dolor amet maiores?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.</p>
+                    <p>Maxime soluta quia, quis quam eius beatae maiores veniam quo.</p>
+                    <p>Quaerat consectetur cum sunt, eligendi molestias animi dolor amet maiores?</p>
+                    <span>span Lorem ipsum dolor sit amet. span</span>
+                </div>
+                <div class="text-nth-child-nomber">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.</p>
+                    <p>Maxime soluta quia, quis quam eius beatae maiores veniam quo.</p>
+                    <p>Quaerat consectetur cum sunt, eligendi molestias animi dolor amet maiores?</p>
+                </div>
+                <div class="text-nth-child">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.</p>
+                    <p>Maxime soluta quia, quis quam eius beatae maiores veniam quo.</p>
+                    <p>Quaerat consectetur cum sunt, eligendi molestias animi dolor amet maiores?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptatum.</p>
+                    <p>Maxime soluta quia, quis quam eius beatae maiores veniam quo.</p>
+                    <p>Quaerat consectetur cum sunt, eligendi molestias animi dolor amet maiores?</p>
+                </div>
             </div>
-            <div class="visited">
-                <ul>
+            <div class="pseudoelements">
+                <ul class="before">
                     <li>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </li>
                     <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
+                        <p>Omnis facere nisi eligendi architecto.</p>
+                    </li>
+                    <li>
+                        <p>Facere, pariatur. Aliquid, ipsum eius?</p>
                     </li>
                 </ul>
-            </div>
-            <div class="focus">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="target">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                </ul>
-            </div>
-            <!-- ПСЕВДО КЛАСИ ПРОЛОЖЕННЯ У КОДІ -->
-             <div class="last-child">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                    <li>
-                        <p>Reprehenderit nam nobis ipsam ab.</p>
-                    </li>
-                </ul>
-             </div>
-             <div class="last-of-type">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                    <li>
-                        <p>Reprehenderit nam nobis ipsam ab.</p>
-                    </li>
-                </ul>
-             </div>
-             <div class="nth-child-odd-even">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                    <li>
-                        <p>Reprehenderit nam nobis ipsam ab.</p>
-                    </li>
-                    <li>
-                        <p>Veritatis aliquam tempore incidunt provident.</p>
-                    </li>
-                    <li>
-                        <p>Hic, minus possimus. Aspernatur, asperiores.</p>
-                    </li>
-                    <li>
-                        <p>Nulla deleniti saepe delectus commodi!</p>
-                    </li>
-                </ul>
-             </div>
-             <div class="not-last-child">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                </ul>
-             </div>
-             <!-- ПСЕВДОЕЛЕМЕНТИ -->
-              <div class="before">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                    <li>
-                        <p>Reprehenderit nam nobis ipsam ab.</p>
-                    </li>
-                </ul>
-              </div>
-              <div class="after">
-                <ul>
-                    <li>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </li>
-                    <li>
-                        <p>Itaque soluta necessitatibus inventore perspiciatis.</p>
-                    </li>
-                    <li>
-                        <p>Reprehenderit nam nobis ipsam ab.</p>
-                    </li>
-                </ul>
-              </div>
+            </div>  
         </div>
         <div class="task-two">
-            <div class="block-1"></div>
-            <div class="block-2"></div>
-            <div class="block-3"></div>
-            <div class="block-4"></div>
-            <div class="block-5"></div>
-            <div class="block-6"></div>
-            <div class="block-7"></div>
-            <div class="block-8"></div>
-            <div class="block-9"></div>
-            <div class="block-10"></div>   
+            <div class="game">
+                <div class="start">
+                    <div class="game-box"></div>
+                    <div class="game-text">
+                        <p>start</p>
+                    </div>
+                </div>
+                <div class="line0"></div>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                <div class="line4"></div>
+                <div class="line5"></div>
+                <div class="line6"></div>
+                <div class="line7"></div>
+                <div class="line8"></div>
+                <div class="line9"></div>
+                <div class="line10"></div>
+                <div class="finish">
+                    <div class="game-box"></div>
+                    <div class="game-text">
+                        <p>finish</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="task-three"></div>
+        <div class="task-three">
+            <div class="busines">
+                <div class="first-block">
+                    <h2>Why Us For International Business Management Consulting!</h2>
+                    <div class="first-text">
+                        <p>
+                            Completely synergized resourced taxings relationships premiers markets ultivate one-to-one customer service with robust ideas dynamically innovated resources leveling  customer service for state of the art customer service innovate product for reliable supply engage web services cutting-edge deliverables.
+                        </p>
+                    </div>
+                </div>
+                <div class="second-block">
+                    <div class="second-title">
+                        <h3>
+                            Proactively envisioned multimedia based expertise media growth superior collaboration.
+                        </h3>
+                        <div class="second-text">
+                            <p>
+                                One-to-one customer service with robust ideas dynamically innovated resources for reliable supply engage web services cutting-edge deliverables.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="second-main">
+                        <div class="images">
+                            <img src="img/Photo.jpg" alt="Photo">
+                        </div>                        
+                        <div class="second-content">
+                            <div class="content-title">
+                                <h2>Our benefits</h2>
+                                <h3>Incubate standards compliant channels benefits.</h3>
+                            </div>
+                            <ul class="content-list">
+                                <li>
+                                    <p>Credibly reintermediate backend</p>
+                                </li>
+                                <li>
+                                    <p>Holistically foster superior</p>
+                                </li>
+                                <li>
+                                    <p>Distinctively exploit optimal</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-block">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="second-text">
+                        <p>
+                            Leveling customer service for state of the art customer service innovate product for reliable supply engage
+                            web services cutting-edge deliverables.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="WhiteCollar">
+                <div class="collar-content">
+                    <div class="images-content">
+                        <div class="image-container-box">
+                            <div class="images-container_image">
+                                <img src="/img/Photo_grup.jpg" alt="Photo_grup">
+                            </div>
+                            <div class="images-content-left">
+                                <h2>We’re Ready To Grow Your Business With Us</h2>
+                                <div class="content-left_text">
+                                    <p>
+                                        Leverage agile frameworks to provide a robust synopsis for high level overviews. thinking to further the overall value proposition.
+                                    </p>
+                                </div>
+                                <a class="images-container_link" href="#"><p>Get in Touch</p></a>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="text-content">
+                        <div class="text-container-box">
+                            <div class="whiteCollar-container-box">
+                                <div class="first-box_title">
+                                    <div class="square">
+                                        <p>Welcome Whitecollar</p>
+                                    </div>
+                                    <h2>We Care About Your Business Plan.</h2>
+                                </div>
+                                <div class="first-box_text">
+                                    <p>
+                                        Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative approaches to corporate strategy foster collaborative thinking to further the overal.
+                                    </p>
+                                    <p>
+                                        Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative approaches to corporate strategy
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="whiteCollar-container-box">
+                                <div class="container-buisnes-plan">
+                                    <div class="one-content">
+                                        <div class="content-vector"></div>
+                                        <div class="content-text">
+                                            <h3>Our Vision</h3>
+                                            <p>
+                                                Capitalize on low hanging fruit to identify a ballpark value added activity to beta clickthroughs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-buisnes-plan">
+                                    <div class="two-content">
+                                        <div class="content-vector"></div>
+                                        <div class="content-text">
+                                            <h3>Our Vision</h3>
+                                            <p>
+                                                Podcasting operational change management inside of workflows to establish a framework.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-last-box">
+                                <a class="box-buttom" href="#"><p>More About Us</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="process">
+                    <div class="process-titlie">
+                        <div class="square">
+                            <div>
+                                <p>Work Process</p>
+                            </div>
+                            <h2>How We Work</h2>
+                        </div>   
+                    </div>
+                    <ul class="work-process-conten">
+                        <li class="process-content-box">
+                            <div class="work-process-content_icon">
+                                <img src="img/Icon_calenlar.svg" alt="Icon_calenlar">
+                            </div>
+                            <div class="process-container">
+                                <div class="work-process-content_text">
+                                    <div class="title-content_box">
+                                        <h4>Make Appointment</h4>
+                                        <div class="text-content_box">
+                                            <p>
+                                                Leverage agile frameworks provide synopsishigh level overviews value proposition.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-process-content_link">
+                                    <a href="#"><p>Testimonials</p></a>
+                                </div>
+                            </div>   
+                        </li>
+                        <li class="process-content-box">
+                            <div class="work-process-content_icon">
+                                <img src="img/Icon_pazzle.svg" alt="Icon_calenlar">
+                            </div>
+                            <div class="process-container">
+                                <div class="work-process-content_text">
+                                    <div class="title-content_box">
+                                        <h4>Consultation</h4>
+                                        <div class="text-content_box">
+                                            <p>
+                                                Leverage agile frameworks provide synopsishigh level overviews value proposition.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-process-content_link">
+                                    <a href="#">
+                                        <p>Testimonials</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="process-content-box">
+                            <div class="work-process-content_icon">
+                                <img src="img/Icon_securiti.svg" alt="Icon_calenlar">
+                            </div>
+                            <div class="process-container">
+                                <div class="work-process-content_text">
+                                    <div class="title-content_box">
+                                        <h4>Enjoy the Service</h4>
+                                        <div class="text-content_box">
+                                            <p>
+                                                Leverage agile frameworks provide synopsishigh level overviews value proposition.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-process-content_link">
+                                    <a href="#">
+                                        <p>Testimonials</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="jewellery">
+                <div class="jewellery-first-block">
+                    <h2>We Develop Create Custom Jewels.</h2>
+                    <div class="jewellery-underlain"></div>
+                </div>
+                <div class="jewellery-secon-block">
+                    <div class="secon-images">
+                        <img src="img/Rectangle-10.jpg" alt="Rectangle 10">
+                    </div>
+                    <div class="jewellery-text">
+                        <p>Embossed hoop earrings</p>
+                        <p>$144.00</p>
+                    </div>
+                </div>
+                <div class="jewellery-last-block">
+                    <h3>#02<br>new jewellery collection</h3>
+                    <div class="secon-images">
+                        <img src="img/Rectangle-10_1.jpg" alt="Rectangle 10_1">
+                    </div>
+                    <div class="jewellery-text">
+                        <p>Embossed hoop earrings</p>
+                        <p>$144.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
