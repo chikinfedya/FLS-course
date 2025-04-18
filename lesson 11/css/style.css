@@ -1,0 +1,46 @@
+@import url(reset.css);
+
+/* ==================== Шрифти ==================== */
+@import url(founts/fonts__causten.css);
+@import url(founts/fonts__CoreSansC.css);
+
+body {
+    width: 1440px;
+    height: 100%;
+}
+
+p {
+    font-family: "Causten";
+    font-size: 18px;
+    font-weight: 500;
+    color: #807D7E;
+}
+
+/* ==================== header ==================== */
+
+.main-menu {
+    font-size: 0;
+}
+
+.main-menu__logo img {
+    width: 91px;
+    
+}
+
+.main-menu__name {
+    display: inline-block;
+}
+
+.main-menu__name p {
+    font-size: 22px;
+    display: inline-block;
+}
+
+.main-menu__name p:not(:last-child) {
+    margin-right: 40px;
+}
+
+.main-menu__name p:nth-of-type(3) {
+    font-weight: 700;
+    color: #3C4242;
+}
