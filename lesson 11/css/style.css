@@ -179,6 +179,7 @@ input {
     vertical-align: top;
     width: 520px;
     height: 785px;
+<<<<<<< HEAD
 }
 
 /* ----------------- right-section ----------------- */
@@ -211,4 +212,6 @@ h1 {
     letter-spacing: 0.68px;
     color: #3C4242;
     text-transform: capitalize;; ;
+=======
+>>>>>>> a046275de546a78dc36f948bea46e50847fec670
 }
