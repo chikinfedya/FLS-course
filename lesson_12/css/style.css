@@ -1,13 +1,49 @@
 @import url(reset.css);
 
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
 .wraper{
     width: 1000px;
     padding: 50px;
 }
 
 header {
-    margin-bottom: 150px;
+    margin-bottom: 300px;
 }
+
+.header-main {
+    width: 900px;
+}
+.header-main__menu {
+    width: 500px;
+    background-color: aqua;
+    padding: 25px;
+    text-align: center;
+    font-size: 0;
+}
+
+/* ----------- першорівневе меню ------------- */
+
+.header-main__menu-items li {
+    display: inline-block;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-main__menu-items li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-main__menu-items li:hover {
+    display: inline-block;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    background-color: cadetblue;
+}
+
+/* ----------- другорівневе меню ------------- */
 
 .position-relactive {
     height: 50px;
@@ -23,7 +59,7 @@ header {
     height: 50px;
     background-color: red;
     position: absolute;
-    top: 250px;
+    top: 450px;
     left: 0;
 }
 
@@ -32,7 +68,7 @@ header {
     height: 50px;
     background-color: green;
     position: fixed;
-    top: 300px;
+    top: 400px;
     left: 50px;
     z-index: 2;
 }
