@@ -2,48 +2,85 @@
 
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 
+
 .wraper{
     width: 1000px;
     padding: 50px;
 }
 
-header {
-    margin-bottom: 300px;
+[class*"__container"] {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.header-main {
-    width: 900px;
-}
-.header-main__menu {
-    width: 500px;
-    background-color: aqua;
-    padding: 25px;
+.header {
+    background-color: chocolate;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
-    font-size: 0;
+    z-index: 50;
 }
 
 /* ----------- першорівневе меню ------------- */
 
-.header-main__menu-items li {
+.item__menu {
     display: inline-block;
     font-family: "Inter";
-    font-size: 20px;
+    font-style: 20px;
     font-weight: 700;
+    position: relative;
 }
 
-.header-main__menu-items li:not(:last-child) {
-    margin-right: 50px;
-}
-
-.header-main__menu-items li:hover {
+.item__menu:hover {
     display: inline-block;
     font-family: "Inter";
-    font-size: 20px;
+    font-style: 20px;
     font-weight: 700;
-    background-color: cadetblue;
+    background-color: coral;
+    border-radius: 5px;
+}
+
+.item__menu:not(:last-child) {
+    margin-right: 70px;
 }
 
 /* ----------- другорівневе меню ------------- */
+.menu__pading {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    padding-top: 70%;
+    visibility: hidden;
+}
+
+.sub-menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 80px;
+    padding: 10px; 
+}
+
+.item__menu:hover .sub-menu {
+    visibility: visible;
+}
+
+.sub-menu {
+    background-color: goldenrod;
+}
+
+.item__sub-menu:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+/* ----------- третєрівневе меню ------------- */
+
+
 
 .position-relactive {
     height: 50px;
