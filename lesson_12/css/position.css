@@ -1,0 +1,60 @@
+@import url(../css/reset.css);
+
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+
+/* ================== - // - POSITION - // - ================== */
+
+.position {
+    margin-bottom: 50px;
+}
+
+.position-relactive {
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    top: 300px;
+    left: 50%;
+    z-index: 1;
+}
+
+.position-absolute {
+    width: 700px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 450px;
+    left: 0;
+}
+
+.position-fixed {
+    width: 700px;
+    height: 50px;
+    background-color: green;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    z-index: 2;
+}
+
+.position-sticky__block {
+    width: 700px;
+    height: 50px;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+}
+
+.position-sticky__block--color-violet {
+    background-color:violet;
+}
+
+.position-sticky__block--color-cadetblue {
+    background-color:cadetblue;
+}
+
+.position-sticky__text {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+}
